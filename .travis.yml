@@ -1,7 +1,7 @@
 language: php
 sudo: false
 
-# check what this does to php 7 : before_script: "sh bin/travis-init.sh"
+before_script: "sh bin/travis-init.sh"
 
 php:
   - 5.6
